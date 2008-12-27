@@ -1,0 +1,14 @@
+Auth Me Amadeus by Ben Ward
+
+  * http://amadeus.benapps.net
+  * http://ben-ward.co.uk
+
+This is a simple tool to take a user through the OAuth process on provision
+of an Application Consumer Key *and* and Application Secret. They are taken
+through the OAuth flow, and come out with an authed user token.
+
+You need to add in the Fire Eagle PHP wrapper from
+http://fireeagle.yahoo.net/developer and needs an immediate rewrite to take 
+logic out of the frontend, but hey, if you need to quickly throw together an 
+OAuth debugging front-end for your app, this might help. Should be easily 
+adaptable for any OAuth API.
